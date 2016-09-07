@@ -1,0 +1,48 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration: none;
+	position: relative;
+}
+i{
+	font-style: normal;
+}
+body{
+	font-family: "微软雅黑";
+}
+@mixin cube($size){
+	width: $size;
+	height: $size;
+}
+@mixin rectangle($w,$h){
+	width: $w;
+	height: $h;
+}
+@mixin circle($size){
+	width: $size;
+	height: $size;
+	border-radius: 50%;
+}
+@mixin shangxia{
+	top:0;
+	bottom:0;
+	margin:auto;
+	position:absolute;
+}
+@mixin zuoyou{
+	left:0;
+	right:0;
+	margin:auto;
+	position: absolute;
+}
+@mixin juzhong{
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	position: absolute;
+}
+
+
